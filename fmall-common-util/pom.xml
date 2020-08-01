@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>indi.df.fmall</groupId>
-        <artifactId>gmall-parent</artifactId>
+        <artifactId>fmall-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
@@ -30,8 +30,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
-
 
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>

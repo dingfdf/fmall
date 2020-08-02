@@ -82,6 +82,20 @@ public class SpuServiceImpl implements SpuService {
 
     @Override
     public List<PmsProductSaleAttr> spuSaleAttrListCheckBySku(String productId, String skuId) {
-        return null;
+        /*//根据spu获得销售属性列表
+        PmsProductSaleAttr pmsProductSaleAttr = new PmsProductSaleAttr();
+        pmsProductSaleAttr.setProductId(productId);
+        List<PmsProductSaleAttr> pmsProductSaleAttrs = pmsProductSaleAttrMapper.select(pmsProductSaleAttr);
+        for(PmsProductSaleAttr productSaleAttr : pmsProductSaleAttrs){
+            //根据销售属性获得销售属性值的列表
+            PmsProductSaleAttrValue pmsProductSaleAttrValue = new PmsProductSaleAttrValue();
+            pmsProductSaleAttrValue.setProductId(productId);
+            pmsProductSaleAttrValue.setSaleAttrId(productSaleAttr.getSaleAttrId()); //在销售属性中，id是主键，依附于销售属性字典表，SaleAttrId是每个销售属性的id
+            List<PmsProductSaleAttrValue> pmsProductSaleAttrValues = pmsProductSaleAttrValueMapper.select(pmsProductSaleAttrValue);
+            productSaleAttr.setSpuSaleAttrValueList(pmsProductSaleAttrValues);
+        }
+        return pmsProductSaleAttrs;*/
+        List<PmsProductSaleAttr> pmsProductSaleAttrs = pmsProductSaleAttrMapper.selectSpuSaleAttrListCheckBySku(productId, skuId);
+        return pmsProductSaleAttrs;
     }
 }

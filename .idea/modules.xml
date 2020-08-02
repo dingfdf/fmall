@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fastdfs-client-java/fastdfs-client-java.iml" filepath="$PROJECT_DIR$/fastdfs-client-java/fastdfs-client-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/fmall.iml" filepath="$PROJECT_DIR$/.idea/fmall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fmall-api/fmall-api.iml" filepath="$PROJECT_DIR$/fmall-api/fmall-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fmall-common-util/fmall-common-util.iml" filepath="$PROJECT_DIR$/fmall-common-util/fmall-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fmall-item-web/fmall-item-web.iml" filepath="$PROJECT_DIR$/fmall-item-web/fmall-item-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fmall-manage-service/fmall-manage-service.iml" filepath="$PROJECT_DIR$/fmall-manage-service/fmall-manage-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fmall-manage-web/fmall-manage-web.iml" filepath="$PROJECT_DIR$/fmall-manage-web/fmall-manage-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fmall-parent/fmall-parent.iml" filepath="$PROJECT_DIR$/fmall-parent/fmall-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fmall-service-util/fmall-service-util.iml" filepath="$PROJECT_DIR$/fmall-service-util/fmall-service-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fmall-web-util/fmall-web-util.iml" filepath="$PROJECT_DIR$/fmall-web-util/fmall-web-util.iml" />
+    </modules>
+  </component>
+</project>

@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/fmall-manage-service/fmall-manage-service.iml" filepath="$PROJECT_DIR$/fmall-manage-service/fmall-manage-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/fmall-manage-web/fmall-manage-web.iml" filepath="$PROJECT_DIR$/fmall-manage-web/fmall-manage-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/fmall-parent/fmall-parent.iml" filepath="$PROJECT_DIR$/fmall-parent/fmall-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fmall-redisson-test/fmall-redisson-test.iml" filepath="$PROJECT_DIR$/fmall-redisson-test/fmall-redisson-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/fmall-service-util/fmall-service-util.iml" filepath="$PROJECT_DIR$/fmall-service-util/fmall-service-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/fmall-web-util/fmall-web-util.iml" filepath="$PROJECT_DIR$/fmall-web-util/fmall-web-util.iml" />
     </modules>

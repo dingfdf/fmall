@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="fmall-api" />
+        <module name="fmall-redisson-test" />
         <module name="fmall-common-util" />
         <module name="fmall-service-util" />
         <module name="fmall-manage-web" />
@@ -24,6 +25,7 @@
       <module name="fmall-manage-service" target="1.8" />
       <module name="fmall-manage-web" target="1.8" />
       <module name="fmall-parent" target="1.8" />
+      <module name="fmall-redisson-test" target="1.8" />
       <module name="fmall-service-util" target="1.8" />
       <module name="fmall-web-util" target="1.8" />
     </bytecodeTargetLevel>
@@ -33,6 +35,7 @@
       <module name="fmall-item-web" options="" />
       <module name="fmall-manage-service" options="" />
       <module name="fmall-manage-web" options="" />
+      <module name="fmall-redisson-test" options="" />
     </option>
   </component>
 </project>

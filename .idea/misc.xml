@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/fmall-api/pom.xml" />
         <option value="$PROJECT_DIR$/fmall-service-util/pom.xml" />
         <option value="$PROJECT_DIR$/fmall-item-web/pom.xml" />
+        <option value="$PROJECT_DIR$/fmall-redisson-test/pom.xml" />
       </list>
     </option>
   </component>

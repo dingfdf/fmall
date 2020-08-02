@@ -8,7 +8,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class FmallRedissionConfig {
+public class FmallRedissonConfig {
+
     @Value("${spring.redis.host:0}")
     private String host;
 
@@ -16,10 +17,11 @@ public class FmallRedissionConfig {
     private String port;
 
     @Bean
-    public RedissonClient redissonClient() {
+    public RedissonClient redissonClient(){
         Config config = new Config();
-        config.useSingleServer().setAddress("redis://" + host + ":" + port);
+        config.useSingleServer().setAddress("redis://"+host+":"+port);
         RedissonClient redisson = Redisson.create(config);
         return redisson;
     }
 }
+

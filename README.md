@@ -1,5 +1,5 @@
 # fmall  
-# fmall-user用户服务8080  
+电商网站，使用到的技术有：SpringBoot、MyBatis、fastdfs、redis、elasticsearch、nginx等  
 
 用户模块  
 http://user.fmall.com:8080/  

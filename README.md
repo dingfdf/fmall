@@ -7,7 +7,7 @@ gmall-user-service用户服务的service层8070
 gmall-user-web用户服务的web层8080  
 
 后台管理模块  
-http://manage.fmall.com:8080/  
+http://manage.fmall.com:8081/  
 fmall-manage-service用户服务的service层8071  
 fmall-manage-web用户服务的web层8081  
 
@@ -22,7 +22,7 @@ fmall-search-web 搜索服务的前台 8083
 fmall-search-service 搜索服务的后台 8073  
 
 购物车模块  
-http://cart.fmall.com:8082/  
+http://cart.fmall.com:8084/  
 fmall-cart-web 购物车的前台 8084  
 fmall-cart-service 购物车的后台 8074  
 

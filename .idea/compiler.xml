@@ -6,36 +6,66 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="fmall-api" />
+        <module name="fmall-order-service" />
         <module name="fmall-redisson-test" />
+        <module name="fmall-manage-web" />
+        <module name="fmall-user-web" />
+        <module name="fmall-manage-service" />
+        <module name="fmall-order-web" />
+        <module name="fmall-web-util" />
+        <module name="fmall-cart-web" />
+        <module name="fmall-api" />
         <module name="fmall-common-util" />
         <module name="fmall-service-util" />
-        <module name="fmall-manage-web" />
         <module name="fastdfs-client-java" />
-        <module name="fmall-manage-service" />
+        <module name="fmall-search-web" />
+        <module name="fmall-cart-service" />
+        <module name="fmall-payment" />
         <module name="fmall-item-web" />
-        <module name="fmall-web-util" />
+        <module name="fmall-search-service" />
+        <module name="fmall-passport-web" />
+        <module name="fmall-user-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="fastdfs-client-java" target="1.6" />
       <module name="fmall-api" target="1.5" />
+      <module name="fmall-cart-service" target="1.8" />
+      <module name="fmall-cart-web" target="1.8" />
       <module name="fmall-common-util" target="1.8" />
       <module name="fmall-item-web" target="1.8" />
       <module name="fmall-manage-service" target="1.8" />
       <module name="fmall-manage-web" target="1.8" />
+      <module name="fmall-order-service" target="1.8" />
+      <module name="fmall-order-web" target="1.8" />
       <module name="fmall-parent" target="1.8" />
+      <module name="fmall-passport-web" target="1.8" />
+      <module name="fmall-payment" target="1.8" />
       <module name="fmall-redisson-test" target="1.8" />
+      <module name="fmall-search-service" target="1.8" />
+      <module name="fmall-search-web" target="1.8" />
       <module name="fmall-service-util" target="1.8" />
+      <module name="fmall-user-service" target="1.8" />
+      <module name="fmall-user-web" target="1.8" />
       <module name="fmall-web-util" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="fmall-cart-service" options="" />
+      <module name="fmall-cart-web" options="" />
       <module name="fmall-item-web" options="" />
       <module name="fmall-manage-service" options="" />
       <module name="fmall-manage-web" options="" />
+      <module name="fmall-order-service" options="" />
+      <module name="fmall-order-web" options="" />
+      <module name="fmall-passport-web" options="" />
+      <module name="fmall-payment" options="" />
       <module name="fmall-redisson-test" options="" />
+      <module name="fmall-search-service" options="" />
+      <module name="fmall-search-web" options="" />
+      <module name="fmall-user-service" options="" />
+      <module name="fmall-user-web" options="" />
     </option>
   </component>
 </project>

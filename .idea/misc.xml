@@ -16,6 +16,16 @@
         <option value="$PROJECT_DIR$/fmall-service-util/pom.xml" />
         <option value="$PROJECT_DIR$/fmall-item-web/pom.xml" />
         <option value="$PROJECT_DIR$/fmall-redisson-test/pom.xml" />
+        <option value="$PROJECT_DIR$/fmall-search-service/pom.xml" />
+        <option value="$PROJECT_DIR$/fmall-search-web/pom.xml" />
+        <option value="$PROJECT_DIR$/fmall-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/fmall-user-web/pom.xml" />
+        <option value="$PROJECT_DIR$/fmall-passport-web/pom.xml" />
+        <option value="$PROJECT_DIR$/fmall-order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/fmall-order-web/pom.xml" />
+        <option value="$PROJECT_DIR$/fmall-cart-service/pom.xml" />
+        <option value="$PROJECT_DIR$/fmall-cart-web/pom.xml" />
+        <option value="$PROJECT_DIR$/fmall-payment/pom.xml" />
       </list>
     </option>
   </component>

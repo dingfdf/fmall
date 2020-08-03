@@ -3,14 +3,24 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/fastdfs-client-java/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fastdfs-client-java/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fmall-cart-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fmall-cart-web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fmall-common-util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fmall-item-web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fmall-manage-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fmall-manage-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fmall-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fmall-order-web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fmall-parent/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fmall-parent/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fmall-passport-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fmall-payment/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fmall-redisson-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fmall-search-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fmall-search-web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fmall-service-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fmall-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fmall-user-web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fmall-web-util/src/main/java" charset="UTF-8" />
   </component>
 </project>

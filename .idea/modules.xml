@@ -5,13 +5,23 @@
       <module fileurl="file://$PROJECT_DIR$/fastdfs-client-java/fastdfs-client-java.iml" filepath="$PROJECT_DIR$/fastdfs-client-java/fastdfs-client-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/fmall.iml" filepath="$PROJECT_DIR$/.idea/fmall.iml" />
       <module fileurl="file://$PROJECT_DIR$/fmall-api/fmall-api.iml" filepath="$PROJECT_DIR$/fmall-api/fmall-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fmall-cart-service/fmall-cart-service.iml" filepath="$PROJECT_DIR$/fmall-cart-service/fmall-cart-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fmall-cart-web/fmall-cart-web.iml" filepath="$PROJECT_DIR$/fmall-cart-web/fmall-cart-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/fmall-common-util/fmall-common-util.iml" filepath="$PROJECT_DIR$/fmall-common-util/fmall-common-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/fmall-item-web/fmall-item-web.iml" filepath="$PROJECT_DIR$/fmall-item-web/fmall-item-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/fmall-manage-service/fmall-manage-service.iml" filepath="$PROJECT_DIR$/fmall-manage-service/fmall-manage-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/fmall-manage-web/fmall-manage-web.iml" filepath="$PROJECT_DIR$/fmall-manage-web/fmall-manage-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fmall-order-service/fmall-order-service.iml" filepath="$PROJECT_DIR$/fmall-order-service/fmall-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fmall-order-web/fmall-order-web.iml" filepath="$PROJECT_DIR$/fmall-order-web/fmall-order-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/fmall-parent/fmall-parent.iml" filepath="$PROJECT_DIR$/fmall-parent/fmall-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fmall-passport-web/fmall-passport-web.iml" filepath="$PROJECT_DIR$/fmall-passport-web/fmall-passport-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fmall-payment/fmall-payment.iml" filepath="$PROJECT_DIR$/fmall-payment/fmall-payment.iml" />
       <module fileurl="file://$PROJECT_DIR$/fmall-redisson-test/fmall-redisson-test.iml" filepath="$PROJECT_DIR$/fmall-redisson-test/fmall-redisson-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fmall-search-service/fmall-search-service.iml" filepath="$PROJECT_DIR$/fmall-search-service/fmall-search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fmall-search-web/fmall-search-web.iml" filepath="$PROJECT_DIR$/fmall-search-web/fmall-search-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/fmall-service-util/fmall-service-util.iml" filepath="$PROJECT_DIR$/fmall-service-util/fmall-service-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fmall-user-service/fmall-user-service.iml" filepath="$PROJECT_DIR$/fmall-user-service/fmall-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fmall-user-web/fmall-user-web.iml" filepath="$PROJECT_DIR$/fmall-user-web/fmall-user-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/fmall-web-util/fmall-web-util.iml" filepath="$PROJECT_DIR$/fmall-web-util/fmall-web-util.iml" />
     </modules>
   </component>

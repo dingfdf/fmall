@@ -5,18 +5,19 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.List;
 
+//对应es的数据结构
 public class PmsSearchSkuInfo implements Serializable{
 
     @Id
-    private long id;
-    private String skuName;
-    private String skuDesc;
-    private String catalog3Id;
-    private BigDecimal price;
-    private String skuDefaultImg;
-    private double hotScore;
-    private String productId;
-    private List<PmsSkuAttrValue> skuAttrValueList;
+    private long id; //id
+    private String skuName; //sku名称
+    private String skuDesc; //sku描述
+    private String catalog3Id; //三级分类名称
+    private BigDecimal price; //价格
+    private String skuDefaultImg; //图片
+    private double hotScore; //热度值
+    private String productId; //spuId
+    private List<PmsSkuAttrValue> skuAttrValueList; //销售属性列表
 
     public long getId() {
         return id;

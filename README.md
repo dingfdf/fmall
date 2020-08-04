@@ -17,7 +17,8 @@ fmall-item-service前台的商品详情服务 8072
 fmall-item-web前台的商品详情展示 8082  
 
 搜索模块  
-http://search.fmall.com:8083/  
+http://search.fmall.com:8083/index (商城首页)   
+http://search.fmall.com:8083/list  
 fmall-search-web 搜索服务的前台 8083  
 fmall-search-service 搜索服务的后台 8073  
 

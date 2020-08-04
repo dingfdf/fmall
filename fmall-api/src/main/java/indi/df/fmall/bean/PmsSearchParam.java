@@ -10,7 +10,7 @@ public class PmsSearchParam implements Serializable{
 
     private String keyword;
 
-    private String[] valueId;
+    private String[] valueId; //属性值id存在数组里，以实现面包屑功能
 
     public String getCatalog3Id() {
         return catalog3Id;

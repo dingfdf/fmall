@@ -4,7 +4,7 @@ public class PmsSearchCrumb {
 
     private String valueId;
     private String valueName;
-    private String urlParam;
+    private String urlParam; //链接
 
     public String getValueId() {
         return valueId;

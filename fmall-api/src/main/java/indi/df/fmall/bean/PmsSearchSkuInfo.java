@@ -17,7 +17,7 @@ public class PmsSearchSkuInfo implements Serializable{
     private String skuDefaultImg; //图片
     private double hotScore; //热度值
     private String productId; //spuId
-    private List<PmsSkuAttrValue> skuAttrValueList; //销售属性列表
+    private List<PmsSkuAttrValue> skuAttrValueList; //销售属性值列表
 
     public long getId() {
         return id;

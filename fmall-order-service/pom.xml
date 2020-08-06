@@ -8,7 +8,7 @@
         <version>1.0-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.atguigu.gmall</groupId>
+    <groupId>indi.df.fmall</groupId>
     <artifactId>fmall-order-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>fmall-order-service</name>

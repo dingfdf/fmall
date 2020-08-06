@@ -1,10 +1,10 @@
 # fmall  
-电商网站  
-技术栈:   
-前端: thymleaf、jQuery 
-后端: SpringBoot、MyBatis、fastdfs、redis、elasticsearch  
-数据库: MySQL
-使用nginx做反向代理  
+电商网站    
+技术栈:     
+前端: thymleaf、jQuery  
+后端: SpringBoot、MyBatis、fastdfs、redis、elasticsearch    
+数据库: MySQL  
+使用nginx做反向代理    
 
 用户模块  
 http://user.fmall.com:8080/  

@@ -22,6 +22,7 @@ public class PassportController {
     @Reference
     UserService userService;
 
+    //这是passport的index，不是商城首页，别搞混了
     @RequestMapping("index")
     public String index(String ReturnUrl, ModelMap map){
         map.put("ReturnUrl",ReturnUrl);

@@ -28,12 +28,23 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public List<UmsMember> getAllUser() {
-        return null;
+        List<UmsMember> umsMembers = userMapper.selectAll();//userMapper.selectAllUser();
+
+        return umsMembers;
     }
 
     @Override
     public List<UmsMemberReceiveAddress> getReceiveAddressByMemberId(String memberId) {
-        return null;
+        // 封装的参数对象
+        UmsMemberReceiveAddress umsMemberReceiveAddress = new UmsMemberReceiveAddress();
+        umsMemberReceiveAddress.setMemberId(memberId);
+        List<UmsMemberReceiveAddress> umsMemberReceiveAddresses = umsMemberReceiveAddressMapper.select(umsMemberReceiveAddress);
+
+//       Example example = new Example(UmsMemberReceiveAddress.class);
+//       example.createCriteria().andEqualTo("memberId",memberId);
+//       List<UmsMemberReceiveAddress> umsMemberReceiveAddresses = umsMemberReceiveAddressMapper.selectByExample(example);
+
+        return umsMemberReceiveAddresses;
     }
 
     //验证用户名是否在缓存或数据库中存在，有则返回
@@ -79,7 +90,30 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public UmsMemberReceiveAddress getReceiveAddressById(String receiveAddressId) {
-        return null;
+    public UmsMember addOauthUser(UmsMember umsMember) {
+        userMapper.insertSelective(umsMember);
+
+        return umsMember;
     }
+
+    @Override
+    public UmsMember checkOauthUser(UmsMember umsCheck) {
+        UmsMember umsMember = userMapper.selectOne(umsCheck);
+        return umsMember;
+    }
+
+    @Override
+    public UmsMember getOauthUser(UmsMember umsMemberCheck) {
+        UmsMember umsMember = userMapper.selectOne(umsMemberCheck);
+        return umsMember;
+    }
+
+    @Override
+    public UmsMemberReceiveAddress getReceiveAddressById(String receiveAddressId) {
+        UmsMemberReceiveAddress umsMemberReceiveAddress = new UmsMemberReceiveAddress();
+        umsMemberReceiveAddress.setId(receiveAddressId);
+        UmsMemberReceiveAddress umsMemberReceiveAddress1 = umsMemberReceiveAddressMapper.selectOne(umsMemberReceiveAddress);
+        return umsMemberReceiveAddress1;
+    }
+
 }

@@ -29,7 +29,8 @@ public class CartController {
     @Reference
     SkuService skuService;
 
-    @RequestMapping("/addToCart")
+    @RequestMapping("addToCart")
+    @LoginRequired(loginSuccess = false)
     public String addToCart(String skuId, int quantity, HttpServletRequest request, HttpServletResponse response, HttpSession session){
         //创建购物车商品对象
         List<OmsCartItem> omsCartItems = new ArrayList<>();
@@ -145,8 +146,8 @@ public class CartController {
 
         modelMap.put("cartList",omsCartItems);
         // 被勾选商品的总额
-        //BigDecimal totalAmount = getTotalAmount(omsCartItems);
-        //modelMap.put("totalAmount",totalAmount);
+        BigDecimal totalAmount =getTotalAmount(omsCartItems);
+        modelMap.put("totalAmount",totalAmount);
         return "cartList";
     }
 
@@ -181,7 +182,7 @@ public class CartController {
 
         // 被勾选商品的总额
         BigDecimal totalAmount =getTotalAmount(omsCartItems);
-        modelMap.put("totalAmount", totalAmount);
+        modelMap.put("totalAmount",totalAmount);
 
         return "cartListInner";
     }

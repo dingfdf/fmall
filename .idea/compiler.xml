@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="gware-manage" />
         <module name="fmall-order-service" />
         <module name="fmall-redisson-test" />
         <module name="fmall-manage-web" />
@@ -49,6 +50,7 @@
       <module name="fmall-user-service" target="1.8" />
       <module name="fmall-user-web" target="1.8" />
       <module name="fmall-web-util" target="1.8" />
+      <module name="gware-manage" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -68,6 +70,7 @@
       <module name="fmall-search-web" options="" />
       <module name="fmall-user-service" options="" />
       <module name="fmall-user-web" options="" />
+      <module name="gware-manage" options="" />
     </option>
   </component>
 </project>

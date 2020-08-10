@@ -8,8 +8,8 @@
 
 用户模块  
 http://user.fmall.com:8080/  
-gmall-user-service用户服务的service层8070  
-gmall-user-web用户服务的web层8080  
+fmall-user-service用户服务的service层8070  
+fmall-user-web用户服务的web层8080  
 
 后台管理模块  
 http://manage.fmall.com:8081/  

@@ -23,6 +23,7 @@
       <module fileurl="file://$PROJECT_DIR$/fmall-user-service/fmall-user-service.iml" filepath="$PROJECT_DIR$/fmall-user-service/fmall-user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/fmall-user-web/fmall-user-web.iml" filepath="$PROJECT_DIR$/fmall-user-web/fmall-user-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/fmall-web-util/fmall-web-util.iml" filepath="$PROJECT_DIR$/fmall-web-util/fmall-web-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gware-manage/gware-manage.iml" filepath="$PROJECT_DIR$/gware-manage/gware-manage.iml" />
     </modules>
   </component>
 </project>

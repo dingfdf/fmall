@@ -40,6 +40,8 @@ public class CartServiceImpl implements CartService {
         //System.out.println(omsCartItem.getQuantity());
         if (StringUtils.isNotBlank(omsCartItem.getMemberId())) {
             omsCartItemMapper.insertSelective(omsCartItem);//避免添加空值
+            // 缓存同步
+            //flushCartCache(omsCartItem.getMemberId());
         }
     }
 
@@ -51,6 +53,7 @@ public class CartServiceImpl implements CartService {
         omsCartItemMapper.updateByExampleSelective(omsCartItemFromDb, e);
     }
 
+    //从数据库查到购物车数据更新到缓存
     @Override
     public void flushCartCache(String memberId) {
         OmsCartItem omsCartItem = new OmsCartItem();
@@ -70,15 +73,17 @@ public class CartServiceImpl implements CartService {
         jedis.close();
     }
 
+    //购物车列表
     @Override
     public List<OmsCartItem> cartList(String userId) {
         Jedis jedis = null;
-        List<OmsCartItem> omsCartItems = new ArrayList<>();
+        List<OmsCartItem> omsCartItems = new ArrayList<>(); //创建一个临时购物车商品列表
         try {
             jedis = redisUtil.getJedis();
-            List<String> hvals = jedis.hvals("user:" + userId + ":cart");
+            List<String> hvals = jedis.hvals("user:" + userId + ":cart"); //Hvals 命令返回哈希表所有域(field)的值
             for (String hval : hvals) {
-                OmsCartItem omsCartItem = JSON.parseObject(hval, OmsCartItem.class);
+                //将redis中的值转为cartitem对象
+                OmsCartItem omsCartItem = JSON.parseObject(hval, OmsCartItem.class); //parse哪种类型，就转成哪种类型
                 omsCartItems.add(omsCartItem);
             }
         }catch (Exception e){
@@ -93,14 +98,12 @@ public class CartServiceImpl implements CartService {
         return omsCartItems;
     }
 
+    //选中购物车中的商品
     @Override
     public void checkCart(OmsCartItem omsCartItem) {
         Example e = new Example(OmsCartItem.class);
-
         e.createCriteria().andEqualTo("memberId",omsCartItem.getMemberId()).andEqualTo("productSkuId",omsCartItem.getProductSkuId());
-
         omsCartItemMapper.updateByExampleSelective(omsCartItem,e);
-
         // 缓存同步
         flushCartCache(omsCartItem.getMemberId());
     }

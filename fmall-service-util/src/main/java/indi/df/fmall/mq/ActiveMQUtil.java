@@ -5,6 +5,7 @@ import org.apache.activemq.pool.PooledConnectionFactory;
 
 import javax.jms.ConnectionFactory;
 
+//用于创建连接工厂
 public class ActiveMQUtil {
     PooledConnectionFactory pooledConnectionFactory=null;
 
